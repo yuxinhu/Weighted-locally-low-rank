@@ -8,12 +8,12 @@ Here we provide the implementation of WNNM based on [BART (version 0.4.03)](http
 We have provided a compiled BART (on Mac OS). By running demo_wllr, you should be able to get the following results. 
 
 <div align="center">
-  <img = src="Results.png" width=“300px” />
+  <img = src="Result.png" width=“300px” />
 </div>
 
 To make it run on you own machine, download BART (version 0.4.03) and replace the scr/lowrank/batchsvd.c file with our provided file. 
 
 ## Changes in BART
-All the changes are in scr/lowrank/batchsvd.c. BART already implemented the construction of the locally low-rank matrices neatly. All we need to do is to change the weights/regularization parameter for each low-rank matrix and each eigenvalue. This is done based on automatically based on eq.13 in [this paper](https://link.springer.com/article/10.1007/s11263-016-0930-5?utm_source=hybris).
+All the changes are in scr/lowrank/batchsvd.c. BART already implemented the construction of the locally low-rank matrices neatly. All we need to do is to change the weights/regularization parameter for each low-rank matrix and each eigenvalue (line 76 - line 85). This is done based on automatically based on eq.13 in [this paper](https://link.springer.com/article/10.1007/s11263-016-0930-5?utm_source=hybris).
 
 
