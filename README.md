@@ -5,7 +5,7 @@ Low rankness of image/k-space data has been exploited in many different MRI appl
 Here we provide the implementation of WNNM based on [BART (version 0.4.03)](https://mrirecon.github.io/bart/) for MRI reconstruction. This work has been published on [ISMRM 2020]('Hu_2020ISMRM_wLLR.pdf').
 
 ## Usage
-We have provided a compiled BART (on Mac OS). By running demo_wllr, you should be able to get the following results. 
+We have provided a compiled BART (on Mac OS). By running demo_wllr, you should be able to get the following results of 4-shot DWI data. 
 
 <div align="center">
   <img = src="Result.png" width=“300px” />
